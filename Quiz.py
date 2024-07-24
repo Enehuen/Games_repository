@@ -39,17 +39,17 @@ while conf.lower() == "si":
                                         quit()
                                     else:
                                         puntaje -= 1
-                                        resp5 = input(f"Respuesta incorrecta, {name} pierde 1 punto,. Vuelva a intentarlo. \n¿Quién escribió 'Don Quijote de la Mancha'? \nTu respuesta es: ")
+                                        resp5 = input(f"Respuesta incorrecta, {name} pierde 1 punto,. Vuelva a intentarlo. \n¿Quién escribió 'Don Quijote de la Mancha'? \nAhi te va una pista, Su nombre era Miguel. \nTu respuesta es: ")
                             else: 
                                 puntaje -= 1
-                                resp4 = input(f"Respuesta incorrecta, {name} pierde 1 punto,. Vuelva a intentarlo. \n¿Qué vitamina se obtiene principalmente a través de la exposición al sol? \nTu respuesta es: ")
+                                resp4 = input(f"Respuesta incorrecta, {name} pierde 1 punto,. Vuelva a intentarlo. \n¿Qué vitamina se obtiene principalmente a través de la exposición al sol? \nAhi te va una pequeña pista, Es una vitamina Liposoluble. \nTu respuesta es: ")
                     else:
                         puntaje -= 1
-                        resp3 = input(f"Respuesta incorrecta, {name} pierde 1 punto,. Vuelva a intentarlo. \n¿Cuál es la capital de Australia? \nTu respuesta es: ")
+                        resp3 = input(f"Respuesta incorrecta, {name} pierde 1 punto,. Vuelva a intentarlo. \n¿Cuál es la capital de Australia? \nAhi te va una pequeña pista, C_____a \nTu respuesta es: ")
             else:
                 puntaje -= 1
-                resp2 =input(f"Respuesta incorrecta, {name} pierde 1 punto,. Vuelva a intentarlo. \n¿En qué año llegó el hombre a la luna? \nTu respuesta es: ")
+                resp2 =input(f"Respuesta incorrecta, {name} pierde 1 punto,. Vuelva a intentarlo. \n¿En qué año llegó el hombre a la luna? \nAhi te va una pequeña pista, está entre 1970 y 1960. \nTu respuesta es: ")
     else:
         puntaje -= 1
-        resp1 = input(f"Respuesta incorrecta, {name} pierde 1 punto,. Vuelva a intentarlo. \nPregunta 1: ¿Cuál es el país más grande del mundo por superficie? \nTu respuesta es:  ")
+        resp1 = input(f"Respuesta incorrecta, {name} pierde 1 punto,. Vuelva a intentarlo. \nPregunta 1: ¿Cuál es el país más grande del mundo por superficie? \nAhi te va una pequeña pista, está al Norte de Asia y al Este de Europa. \nTu respuesta es:  ")
     
